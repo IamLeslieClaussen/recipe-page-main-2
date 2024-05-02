@@ -92,7 +92,7 @@ table span {
     padding: 1.5rem;
   }
   body {
-    background-color: yellow;
+    background-color: hsl(30, 54%, 90%);
   }
   img {
     border-radius: 10px;
