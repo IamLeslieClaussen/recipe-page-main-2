@@ -4,6 +4,100 @@
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+}
+
+.container div:not(:first-child) {
+  padding: 2rem;
+}
+.container {
+  min-width: 390px;
+  background-color: ;
+}
+
 body {
-  width: 100%;
+  font-family: Outfit;
+  font-weight: 300;
+  color: rgba(92, 92, 92, 0.919);
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  margin-left: 2rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: hsl(332, 51%, 32%);
+}
+
+.prep_time ul {
+  margin-left: 3rem;
+  line-height: 2;
+}
+
+.prep_time span {
+  margin-left: 1rem;
+}
+
+h1,
+h2 {
+  font-family: Young Serif;
+}
+
+h1 {
+  font-size: 2.3rem;
+  color: black;
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+.ingredients ul {
+  margin-left: 1.7rem;
+  line-height: 2;
+}
+
+.instructions ol {
+  margin-left: 2rem;
+  line-height: 1.7;
+}
+
+table {
+  margin-left: 5rem;
+  line-height: 3;
+  margin-bottom: 2rem;
+}
+
+table span {
+  margin-left: 5rem;
+  color: hsl(14, 45%, 36%);
+}
+
+@media screen and (min-width: 390px) {
+  .container {
+    max-width: 570px;
+    background-color: white;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    border-radius: 20px;
+    padding: 1.5rem;
+  }
+  body {
+    background-color: yellow;
+  }
+  img {
+    border-radius: 10px;
+  }
+  table span {
+    margin-left: 9rem;
+  }
 }
